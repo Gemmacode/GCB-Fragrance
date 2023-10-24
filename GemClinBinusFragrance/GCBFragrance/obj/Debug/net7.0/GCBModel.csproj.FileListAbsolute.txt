@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\bin\Debug\net7.0\GCBModel.deps.json
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\bin\Debug\net7.0\GCBModel.runtimeconfig.json
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\bin\Debug\net7.0\GCBModel.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\bin\Debug\net7.0\GCBModel.pdb
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.AssemblyInfo.cs
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\refint\GCBModel.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.pdb
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\GCBModel.genruntimeconfig.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GCBFragrance\obj\Debug\net7.0\ref\GCBModel.dll

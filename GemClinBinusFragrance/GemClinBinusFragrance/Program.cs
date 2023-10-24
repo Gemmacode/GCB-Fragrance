@@ -1,5 +1,9 @@
+using GCBCORE.IServices;
+using GCBCORE.Services;
+using GCBData;
+using Microsoft.EntityFrameworkCore;
 
-namespace GemClinBinusFragrance
+namespace GemClinBinus
 {
     public class Program
     {
@@ -13,6 +17,11 @@ namespace GemClinBinusFragrance
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<FDbContext>(options =>
+              options.UseSqlServer(builder.Configuration.GetConnectionString("Default connection")));
+
+            builder.Services.AddScoped<IFrangranceService, FragranceService>();
 
             var app = builder.Build();
 

@@ -2,7 +2,7 @@
 
 namespace GCBModel.FragranceModel
 {
-    public class Fragrance
+    public class Fragrance : BaseEntity
     {
         public string Name { get; set; }
 
