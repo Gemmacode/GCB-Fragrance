@@ -6,9 +6,9 @@ namespace GCBCORE.IServices
     public interface IFrangranceService
     {
         List<Fragrance> GetAllFragrances();
-        Fragrance GetFragranceById(int id);
+        Fragrance GetFragranceById(string Id);
         void AddFragrance(FragranceDTO fragrance);
-        void UpdateFragrance(int Id, FragranceDTO updatedFragrance);
-        void DeleteFragrance(int Id);
+        void UpdateFragrance(string Id, FragranceDTO updatedFragrance);
+        void DeleteFragrance(string Id);
     }
 }

@@ -3,7 +3,6 @@ C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragranc
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.AssemblyInfo.cs
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\bin\Debug\net7.0\appsettings.json
@@ -78,3 +77,5 @@ C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragranc
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.pdb
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\GCBFragrance.genruntimeconfig.cache
 C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\obj\Debug\net7.0\ref\GCBFragrance.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\bin\Debug\net7.0\GCBCORE.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GemClinBinusFragrance\GemClinBinusFragrance\bin\Debug\net7.0\GCBCORE.pdb
