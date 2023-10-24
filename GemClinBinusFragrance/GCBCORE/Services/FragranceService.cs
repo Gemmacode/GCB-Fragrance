@@ -2,6 +2,7 @@
 using GCBData;
 using GCBData.DTO;
 using GCBModel.FragranceModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace GCBCORE.Services
 {
@@ -14,9 +15,44 @@ namespace GCBCORE.Services
             _dbContext = dbContext;
         }
 
-        public void AddFragrance(FragranceDTO fragrance)
+        public string AddFragrance(FragranceDTO fragrance)
         {
-            throw new NotImplementedException();
+
+
+            var validationContext = new ValidationContext(fragrance, null, null);
+            var validationResults = new List<ValidationResult>();
+
+            if (!Validator.TryValidateObject(fragrance, validationContext, validationResults, true))
+            {
+                var validationErrors = string.Join(", ", validationResults.Select(r => r.ErrorMessage));
+                return $"Validation failed: {validationErrors}";
+            }
+
+            try
+            {
+                var frag = new Fragrance
+                {
+                    Name = fragrance.Name,
+                    Brand = fragrance.Brand,
+                    Price = fragrance.Price,
+                    Preference = fragrance.Preference,
+                    Description = fragrance.Description,
+                    Type = fragrance.Type,
+                    VolumeInMilliliters = fragrance.VolumeInMilliliters,
+                    Intensity = fragrance.Intensity,
+                };
+
+                _dbContext.Fragrances.Add(frag);
+                _dbContext.SaveChanges();
+
+                return $"{frag.Name} added successfully";
+            }
+            catch (Exception ex)
+            {
+                return $"Error adding fragrance: {ex.Message}";
+            }
+
+
         }
 
         public void DeleteFragrance(string Id)
