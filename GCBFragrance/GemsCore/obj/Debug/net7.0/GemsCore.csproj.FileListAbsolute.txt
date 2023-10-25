@@ -1,0 +1,38 @@
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.deps.json
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.runtimeconfig.json
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.dll
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.pdb
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsData.dll
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsModel.dll
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsData.pdb
+C:\Users\user\Music\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsModel.pdb
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.csproj.AssemblyReference.cache
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.AssemblyInfoInputs.cache
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.AssemblyInfo.cs
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.csproj.CoreCompileInputs.cache
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.csproj.CopyComplete
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.dll
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\refint\GemsCore.dll
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.pdb
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.genruntimeconfig.cache
+C:\Users\user\Music\GCBFragrance\GemsCore\obj\Debug\net7.0\ref\GemsCore.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.deps.json
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.runtimeconfig.json
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsCore.pdb
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsData.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsModel.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsData.pdb
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\bin\Debug\net7.0\GemsModel.pdb
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.AssemblyInfo.cs
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.csproj.CopyComplete
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\refint\GemsCore.dll
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.pdb
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\GemsCore.genruntimeconfig.cache
+C:\Users\user\Desktop\Gemma Practice Projects\GCB-Fragrance\GCBFragrance\GemsCore\obj\Debug\net7.0\ref\GemsCore.dll
