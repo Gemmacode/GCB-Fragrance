@@ -1,4 +1,5 @@
 ﻿using GemsCore.IServices;
+using GemsCore.Services;
 using GemsData.DTO;
 using GemsModel.Entity;
 using Microsoft.AspNetCore.Http;
@@ -32,7 +33,7 @@ namespace GemsFragrance.Controllers
         }
 
         [HttpGet("Get-All-Fragrance")]
-        public ActionResult<List<Fragrance>> GetAllFragrances()
+        public ActionResult<IEnumerable<Fragrance>> GetAllFragrances()
         {
             try
             {
@@ -41,9 +42,36 @@ namespace GemsFragrance.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
+                
                 return StatusCode(500, "Internal server error");
             }
         }
+
+        [HttpDelete("Delete-Fragrance")]
+
+        public IActionResult DeleteFragrance(string id)
+        {
+            var result = _fagranceService.DeleteFragrance(id);
+            return Ok(result);
+        }
+
+        [HttpPut("{Update-Fragrance-By-Id}")]
+        public ActionResult<string> UpdateFragrance(string id, [FromBody] FragranceDTO updatedFragrance)
+        {
+            string result = _fagranceService.UpdateFragrance(id, updatedFragrance);
+
+            if (result == "Fragrance not found")
+            {
+                return NotFound(result);
+            }
+            else if (result == "Error updating fragrance")
+            {
+                return StatusCode(500, result);
+            }
+
+            return Ok(result);
+        }
+
+
     }
 }

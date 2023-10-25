@@ -2,6 +2,7 @@
 using GemsData.DTO;
 using GemsData.FragranceDbContext;
 using GemsModel.Entity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -60,9 +61,17 @@ namespace GemsCore.Services
             }
         }
 
-        public void DeleteFragrance(string Id)
+        public string DeleteFragrance(string Id)
         {
-            throw new NotImplementedException();
+            var frag = _dbContext.Fragrances.FirstOrDefault(x => x.Id == Id);
+            if (frag == null)
+            {
+                return $"Fragrance with {Id} not found";
+            }
+            _dbContext.Fragrances.Remove(frag);
+            _dbContext.SaveChanges();
+            return $"Fragrance with {Id} deleted successfully";
+
         }
 
         public List<Fragrance> GetAllFragrances()
@@ -77,9 +86,32 @@ namespace GemsCore.Services
             return fragrances;
         }
 
-        public void UpdateFragrance(string Id, FragranceDTO updatedFragrance)
+        public string UpdateFragrance(string Id, FragranceDTO updatedFragrance)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var existingFragrance = _dbContext.Fragrances.FirstOrDefault(x => x.Id == Id);
+
+                if (existingFragrance == null)
+                {
+                    return "Fragrance not found";
+                }
+
+                // Update properties of the existing fragrance with values from updatedFragrance DTO
+                existingFragrance.Name = updatedFragrance.Name;
+                // Update other properties...
+
+                _dbContext.Entry(existingFragrance).State = EntityState.Modified;
+                _dbContext.SaveChanges();
+
+                return "Fragrance updated successfully";
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it as needed
+                return "Error updating fragrance";
+            }
         }
     }
+    
 }
