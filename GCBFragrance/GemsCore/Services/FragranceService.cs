@@ -67,12 +67,14 @@ namespace GemsCore.Services
 
         public List<Fragrance> GetAllFragrances()
         {
-            throw new NotImplementedException();
+            var fragranc = new List<Fragrance>();
+            return fragranc;
         }
 
         public Fragrance GetFragranceById(string Id)
         {
-            throw new NotImplementedException();
+            var fragrances = _dbContext.Fragrances.FirstOrDefault(x => x.Id == Id);
+            return fragrances;
         }
 
         public void UpdateFragrance(string Id, FragranceDTO updatedFragrance)
